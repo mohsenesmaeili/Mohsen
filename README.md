@@ -1,6 +1,7 @@
 # [Mohsen V1 (Best)](https://telegram.me/mohsenesmaeili)
 
 **An advanced and powerful administration bot based on NEW TG-CLI
+
 Telegram: @mohsenesmaeili
 www.mohsenesmaeili.net
 
@@ -13,7 +14,6 @@ www.mohsenesmaeili.net
 | [#!/]help | just send help in your group and get the commands |
 **You can use "#", "!", or "/" to begin all commands
 
-**
 ربات را روی سرور اجرا کنید و
  بعد ربات را مدیر گروه مورد نظر کنید و سپس دستورات زیر را وراد کنید
 /add
@@ -22,7 +22,7 @@ www.mohsenesmaeili.net
 !setcmd fa
 
 پس از دستورات بالا میتوانید با دستورات فارسی براحتی با ربات کار کنید
-**برای راهنمای ربات بنویسید: راهنما
+برای راهنمای ربات بنویسید: راهنما
 
 
 
