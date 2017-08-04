@@ -1,5 +1,5 @@
--- #Beyond Reborn Robot
--- #@BeyondTeam
+-- #Robot
+-- #@FullManager
 
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
@@ -90,28 +90,21 @@ function create_config( )
 		"fun",
 
 	},
-    sudo_users = {111334847, 157059515, sudo_id},
+    sudo_users = {215078906, sudo_id},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》Beyond Reborn v6.0
-An advanced administration bot based on https://valtman.name/telegram-cli
-
-》https://github.com/BeyondTeam/BDReborn 
-
-》Admins :
-》@SoLiD ➣ Founder & Developer《
-》@Makan ➣ Developer《
-》@ToOfan ➣ Developer《
+    info_text = [[\n About Bot: \n》Admins :
+》@mohsenesmaeili ➣ Founder & Developer《
 
 》Special thanks to :
-》Beyond Team Members
+》Team Members
 
 》Our channel :
-》@BeyondTeam《
+》@FullManager《
 
 》Our website :
-》http://Beyond-Dev.iR
+》http://mohsenesmaeili.net
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
@@ -153,7 +146,7 @@ function load_plugins()
 			print('\27[31m'..err..'\27[39m')
 		end
 	end
-	print('\n'..#config.enabled_plugins..' Plugins Are Active\n\nStarting BDReborn Robot...\n')
+	print('\n'..#config.enabled_plugins..' Plugins Are Active\n\nStarting Robot...\n')
 end
 
 load_plugins()
@@ -303,11 +296,7 @@ end
 end
 
 function tdcli_update_callback (data)
-	if data.message_ then
-		if msg_caption ~= get_text_msg() then
-			msg_caption = get_text_msg()
-		end
-	end
+	
 	if (data.ID == "UpdateNewMessage") then
 
 		local msg = data.message_
