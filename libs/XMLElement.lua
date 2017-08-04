@@ -1,6 +1,7 @@
 -- Copyright 2009 Leo Ponomarev. Distributed under the BSD Licence. 
 -- updated for module-free world of lua 5.3 on April 2 2015
 -- Not documented at all, but not interesting enough to warrant documentation anyway.
+
 local setmetatable, pairs, ipairs, type, getmetatable, tostring, error = setmetatable, pairs, ipairs, type, getmetatable, tostring, error
 local table, string = table, string
 
