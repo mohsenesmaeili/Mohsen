@@ -3,7 +3,6 @@ local redis = {
     _DESCRIPTION = 'A Lua client library for the redis key value storage system.',
     _COPYRIGHT   = 'Copyright (C) 2009-2012 Daniele Alessandri',
 }
-
 -- The following line is used for backwards compatibility in order to keep the `Redis`
 -- global module name. Using `Redis` is now deprecated so you should explicitly assign
 -- the module to a local variable when requiring it: `local redis = require('redis')`.
