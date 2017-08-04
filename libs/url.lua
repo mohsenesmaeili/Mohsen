@@ -265,5 +265,4 @@ function Url.build_path(parsed, unsafe)
 	if parsed.is_absolute then path = "/" .. path end
 	return path
 end
-
 return Url
