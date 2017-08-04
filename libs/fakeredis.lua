@@ -1,5 +1,4 @@
 local unpack = table.unpack or unpack
-
 --- Bit operations
 
 local ok,bit
