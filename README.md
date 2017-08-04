@@ -10,18 +10,26 @@ www.mohsenesmaeili.net
 ## Commands
 
 | Use help |
-|:--------|:------------|
-| [#!/]help | just send help in your group and get the commands |
-**You can use "#", "!", or "/" to begin all commands
 
-ربات را روی سرور اجرا کنید و
- بعد ربات را مدیر گروه مورد نظر کنید و سپس دستورات زیر را وراد کنید
+| [#!/]help | just send help in your group and get the commands |
+
+You can use "#", "!", or "/" to begin all commands
+
+ربات را روی سرور اجرا کنید 
+
+و بعد ربات را مدیر گروه مورد نظر کنید و سپس دستورات زیر را وراد کنید
+
 /add
+
 !charge 30
+
 !setlang fa
+
 !setcmd fa
 
+
 پس از دستورات بالا میتوانید با دستورات فارسی براحتی با ربات کار کنید
+
 برای راهنمای ربات بنویسید: راهنما
 
 
