@@ -1,5 +1,5 @@
 --Begin Tools.lua :)
-local SUDO = 157059515 -- put Your ID here! <===
+local SUDO = 215078906 -- put Your ID here! <===
 function exi_files(cpath)
     local files = {}
     local pth = cpath
@@ -1072,7 +1072,7 @@ end
 
 if ((matches[1] == 'createsuper' and not Clang) or (matches[1] == "ساخت سوپرگروه" and Clang)) and is_admin(msg) then
 local text = matches[2]
-tdcli.createNewChannelChat(text, 1, '@BeyondTeam', (function(b, d) tdcli.addChatMember(d.id_, msg.from.id, 0, dl_cb, nil) end), nil)
+tdcli.createNewChannelChat(text, 1, '@FullManager', (function(b, d) tdcli.addChatMember(d.id_, msg.from.id, 0, dl_cb, nil) end), nil)
    if not lang then 
 return '_SuperGroup Has Been Created and_ [`'..msg.from.id..'`] _Joined To This SuperGroup._'
   else
@@ -1231,7 +1231,7 @@ return chat_list(msg)
 	   tdcli.sendMessage(matches[2], 0, 1, "Group has been removed by admin command", 1, 'html')
     return '_Group_ *'..matches[2]..'* _removed_'
 		end
-if ((matches[1] == 'beyond' and not Clang) or (matches[1] == "بیوند" and Clang)) then
+if ((matches[1] == 'botinfo') or (matches[1] == "info") or (matches[1] == "bot") or (matches[1] == "about") or (matches[1] == "رباتساز") or (matches[1] == "ربات")or (matches[1] == "درباره")) then
 return tdcli.sendMessage(msg.to.id, msg.id, 1, _config.info_text, 1, 'html')
     end
 if ((matches[1] == 'adminlist' and not Clang) or (matches[1] == "لیست ادمین" and Clang)) and is_admin(msg) then
@@ -1265,7 +1265,7 @@ if matches[1] == "helptools" and not Clang and is_mod(msg) then
 if not lang then
 text = [[
 
-_Sudoer And Admins Beyond Bot Help :_
+_Sudoer And Admins  Bot Help :_
 
 *!visudo* `[username|id|reply]`
 _Add Sudo_
@@ -1377,7 +1377,7 @@ tdcli.sendMessage(msg.chat_id_, 0, 1, text, 1, 'md')
 else
 
 text = [[
-_راهنمای ادمین و سودو های ربات بیوند:_
+_راهنمای ادمین و سودو های ربات رباتساز:_
 
 *!visudo* `[username|id|reply]`
 _اضافه کردن سودو_
@@ -1493,7 +1493,7 @@ if matches[1] == "راهنمای ابزار" and Clang and is_mod(msg) then
 if not lang then
 text = [[
 
-_Sudoer And Admins Beyond Bot Help :_
+_Sudoer And Admins  Bot Help :_
 
 *سودو* `[username|id|reply]`
 _Add Sudo_
@@ -1603,7 +1603,7 @@ tdcli.sendMessage(msg.chat_id_, 0, 1, text, 1, 'md')
 else
 
 text = [[
-_راهنمای ادمین و سودو های ربات بیوند:_
+_راهنمای ادمین و سودو های ربات رباتساز:_
 
 *سودو* `[username|id|reply]`
 _اضافه کردن سودو_
@@ -1733,7 +1733,10 @@ patterns = {
 "^[!/#](admindem) (.*)$",
 "^[!/#](leave)$",
 "^[!/#](autoleave) (.*)$", 
-"^[!/#](beyond)$",
+"^(botinfo)$",
+"^(bot)$",
+"^(info)$",
+"^(about)$",
 "^[!/#](creategroup) (.*)$",
 "^[!/#](createsuper) (.*)$",
 "^[!/#](tosuper)$",
@@ -1803,8 +1806,10 @@ patterns = {
     "^(ارسال) +(.*) (-%d+)$",
 	"^(افزودن) (-%d+)$",
 	"^(پاک کردن حافظه)$",
-	"^(بیوند)$",
+	"^(رباتساز)$",
+	"^(ربات)$",
+	"^(درباره)$",
 }, 
 run = run, pre_process = pre_process
 }
--- #End By @BeyondTeam
+-- #End By @FullManager
