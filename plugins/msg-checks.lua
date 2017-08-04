@@ -1,4 +1,4 @@
---Begin msg_checks.lua By @SoLiD
+--Begin msg_checks.lua
 local function pre_process(msg)
 local data = load_data(_config.moderation.data)
 local chat = msg.to.id
