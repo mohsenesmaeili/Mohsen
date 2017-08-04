@@ -2,7 +2,8 @@
 
 **An advanced and powerful administration bot based on NEW TG-CLI
 
-Telegram: @mohsenesmaeili
+telegram.me/mohsenesmaeili
+
 www.mohsenesmaeili.net
 
 * * *
