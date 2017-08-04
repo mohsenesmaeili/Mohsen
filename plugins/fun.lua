@@ -1,6 +1,6 @@
 
---Begin Fun.lua By @BeyondTeam
---Special Thx To @To0fan
+--Begin Fun.lua
+--Special Thx
 --------------------------------
 
 local function run_bash(str)
@@ -314,7 +314,7 @@ local hash = "gp_lang:"..msg.to.id
 local lang = redis:get(hash)
 if not lang then
 helpfun_en = [[
-_Beyond Reborn Fun Help Commands:_
+_ Reborn Fun Help Commands:_
 
 *!time*
 _Get time in a sticker_
@@ -357,7 +357,7 @@ _You can use_ *[!/#]* _at the beginning of commands._
 else
 
 helpfun_en = [[
-_راهنمای فان ربات بیوند:_
+_راهنمای فان ربات :_
 
 *!time*
 _دریافت ساعت به صورت استیکر_
@@ -406,7 +406,7 @@ local hash = "gp_lang:"..msg.to.id
 local lang = redis:get(hash)
 if not lang then
 helpfun_fa = [[
-_Beyond Reborn Fun Help Commands:_
+_ Reborn Fun Help Commands:_
 
 *ساعت*
 _Get time in a sticker_
@@ -447,7 +447,7 @@ _Get weather_
 else
 
 helpfun_fa = [[
-_راهنمای فان ربات بیوند:_
+_راهنمای فان ربات :_
 
 *ساعت*
 _دریافت ساعت به صورت استیکر_
@@ -523,4 +523,4 @@ return {
 	run = run,
 	}
 
---#by @BeyondTeam :)
+--#by :)
