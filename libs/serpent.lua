@@ -116,6 +116,7 @@ local function deserialize(data, opts)
   return pcall(f)
 end
 
+
 local function merge(a, b) if b then for k,v in pairs(b) do a[k] = v end end; return a; end
 return { _NAME = n, _COPYRIGHT = c, _DESCRIPTION = d, _VERSION = v, serialize = s,
   load = deserialize,
