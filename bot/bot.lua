@@ -1,5 +1,5 @@
 -- #Robot
--- #@FullManager
+-- #@mohsenesmaeili
 
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
@@ -96,15 +96,9 @@ function create_config( )
     moderation = {data = './data/moderation.json'},
     info_text = [[\n About Bot: \n》Admins :
 》@mohsenesmaeili ➣ Founder & Developer《
-
-》Special thanks to :
-》Team Members
-
-》Our channel :
-》@FullManager《
-
+		
 》Our website :
-》http://mohsenesmaeili.net
+》http://mohsenesmaili.ir
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
